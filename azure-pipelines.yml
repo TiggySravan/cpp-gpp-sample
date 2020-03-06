@@ -16,7 +16,6 @@ steps:
     packageType: 'sdk'
     version: '2.2.x'
 
-steps:
 - script: dotnet build --configuration $(buildconfiguration)
   displayName: 'dotnet build $(buildconfiguration)'
     
